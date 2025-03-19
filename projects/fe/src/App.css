@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .mask-slider {
+    mask-image: linear-gradient(
+      90deg,
+      transparent,
+      #fff 5%,
+      #fff 95%,
+      transparent
+    );
+    mask-repeat: no-repeat;
+    mask-position: center;
+  }
+
+  .paragraph {
+    height: 750px;
+    background-color: black;
+    text-align: center;
+    overflow: hidden;
+    max-width: 100%;
+  }
+
+  /*첫번째 단락*/
+  .paragraph .first {
+    font-size: 24px;
+    font-family: "PayToneOne";
+    margin-top: 200px;
+  }
+
+  #alpha {
+    color: #e45454;
+  }
+
+  .paragraph p {
+    color: #d9d9d9;
+  }
+
+  #omega {
+    color: #8672f3;
+  }
+
+  #mention {
+    text-align: center;
+    color: #cccccc;
+    font-family: "Noto Sans KR";
+    margin: 0px;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  .imagecontainer {
+    width: 100%;
+    height: 190px;
+    position: relative;
+  }
+
+  .second {
+    text-align: center;
+    position: absolute;
+    top: 550px;
+    right: -200%;
+    bottom: 0px;
+    left: -200%;
+  }
+
+  .logoImage {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .mean {
+    width: 339px;
+    height: 78px;
+    align-items: center;
+    margin: 0 auto; /* 수평 가운데 정렬을 위해 사용 */
+  }
+
+  .mean p {
+    font-family: "Noto Sans KR";
+    font-size: 18px;
+    margin: 1px;
+  }
+
+  .history {
+    /*미디어 쿼리 해야할 부분*/
+    width: 339px;
+    height: 161px;
+    align-items: center;
+    margin: 0 auto; /* 수평 가운데 정렬을 위해 사용 */
+  }
+
+  .history p {
+    font-family: "Noto Sans KR";
+    font-size: 16px;
+    margin-top: 20px;
+  }
+
+  .activity {
+    display: flex;
+    margin-left: 18px;
+    color: E5E5E5;
+  }
+
+  #Eng {
+    font-family: "PayToneOne";
+    font-size: 22px;
+  }
+
+  #Kor {
+    font-family: "Noto Sans KR";
+    font-size: 20px;
+    margin: 22px 0px;
+  }
+
+  #list {
+    margin-top: 0;
+    color: #cccccc;
+    text-align: left;
+    font-family: "Noto Sans KR";
+    font-size: 16px;
+  }
+
+  #list li {
+    margin-bottom: 3px;
+  }
+
+  .man {
+    display: flex;
+    margin-left: 16px;
+  }
+
+  .box {
+    width: 339px;
+    height: 222px;
+    background-color: #0d0d0d;
+    margin-left: 16px;
+    border-radius: 12px;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.5px;
+    margin-top: 20px;
+  }
+
+  .box p {
+    font-family: "Noto Sans KR";
+    font-size: 15px;
+    margin: 20px;
+    color: #cccccc;
+  }
+
+  .but {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    align-items: center;
+    overflow: hidden;
+    max-width: 100%;
+  }
+
+  .but #buts {
+    background-color: #191919;
+    align-items: center;
+    justify-content: center;
+    width: 337px;
+    height: 51px;
+    border-radius: 50px;
+    color: #f2f2f2;
+    font: Noto Sans KR;
+    font-size: 13px;
+    font-weight: 400;
+    align-items: center;
+    display: flex;
+    border: none;
+  }
+
+  #buts #buteng {
+    color: #f2f2f2;
+    font-family: "PaytoneOne";
+    font-size: 16px;
+  }
+
+  #buts #butkor {
+    color: #f2f2f2;
+    font-family: "Noto Sans KR";
+    font-size: 16px;
+  }
+
+  /* fonts from team1 */
+  @font-face {
+    font-family: "PaytoneOne";
+    src: url("@/common/assets/fonts/team1/AnyConv.com__PaytoneOne-Regular.woff")
+      format("woff");
+  }
+
+  @font-face {
+    font-family: "Noto Sans KR";
+    font-style: normal;
+    font-weight: normal;
+    src: url("@/common/assets/fonts/team1/AnyConv.com__NotoSansKR-Regular.woff")
+      format("woff");
+  }
+
+  @font-face {
+    font-family: Pretendard-ExtraBold;
+    src: url("@/common/assets/fonts/team1/Pretendard-ExtraBold.woff")
+      format("woff");
+  }
+
+  @font-face {
+    font-family: Pretendard-ExtraLight;
+    src: url("@/common/assets/fonts/team1/Pretendard-ExtraLight.woff")
+      format("woff");
+  }
+
+  @font-face {
+    font-family: Pretendard-Light;
+    src: url("@/common/assets/fonts/team1/Pretendard-Light.woff") format("woff");
+  }
+
+  /* fonts from team2 */
+  html > body {
+    font-family: "Noto Sans KR", sans-serif;
+  }
+
+  @font-face {
+    font-family: "5MAL6LAMPEN";
+    src: url("@/common/assets/fonts/team2/5MAL6LAMPEN.TTF") format("truetype");
+  }
+
+  @font-face {
+    font-family: "PRETENDARD-BLACK";
+    src: url("@/common/assets/fonts/team2/PRETENDARD-BLACK.OTF")
+      format("opentype");
+  }
+
+  @font-face {
+    font-family: "PRETENDARD-BOLD";
+    src: url("@/common/assets/fonts/team2/PRETENDARD-BOLD.OTF")
+      format("opentype");
+  }
+
+  @font-face {
+    font-family: "PRETENDARD-SEMIBOLD";
+    src: url("@/common/assets/fonts/team2/PRETENDARD-SEMIBOLD.OTF")
+      format("opentype");
+  }
+
+  @font-face {
+    font-family: "PRETENDARD-MEDIUM";
+    src: url("@/common/assets/fonts/team2/PRETENDARD-MEDIUM.OTF")
+      format("opentype");
+  }
+
+  @font-face {
+    font-family: "PRETENDARD-LIGHT";
+    src: url("@/common/assets/fonts/team2/PRETENDARD-LIGHT.OTF")
+      format("opentype");
+  }
+
+  @font-face {
+    font-family: "PRETENDARD-REGULAR";
+    src: url("@/common/assets/fonts/team2/PRETENDARD-REGULAR.OTF")
+      format("opentype");
+  }
+}

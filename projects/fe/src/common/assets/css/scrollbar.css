@@ -1,0 +1,58 @@
+/* total width */
+*::-webkit-scrollbar {
+  background-color: white;
+  width: 8px;
+  height: 8px;
+  display: block;
+}
+
+/* background of the scrollbar except button or resizer */
+*::-webkit-scrollbar-track {
+  background-color: white;
+}
+
+*::-webkit-scrollbar-track-piece {
+  background-color: white;
+}
+
+/* scrollbar itself */
+*::-webkit-scrollbar-thumb {
+  background-color: #babac0;
+  border-radius: 24px;
+  border: 0px solid white;
+}
+
+/* set button(top and bottom of the scrollbar) */
+*::-webkit-scrollbar-button {
+  display: none;
+}
+
+/* in dark mode */
+/* total width */
+.dark *::-webkit-scrollbar {
+  background-color: black;
+  width: 8px;
+  height: 8px;
+  display: block;
+}
+
+/* background of the scrollbar except button or resizer */
+.dark *::-webkit-scrollbar-track {
+  background-color: black;
+}
+
+.dark *::-webkit-scrollbar-track-piece {
+  background-color: #00000000;
+}
+
+/* scrollbar itself */
+.dark *::-webkit-scrollbar-thumb {
+  background-color: #524f4f;
+  border-radius: 24px;
+  border: 0px solid black;
+}
+
+/* set button(top and bottom of the scrollbar) */
+.dark *::-webkit-scrollbar-button {
+  display: none;
+}

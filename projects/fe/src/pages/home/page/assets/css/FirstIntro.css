@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.firstIntro-container {
+  height: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 10;
+  background-image: url("@/pages/home/page/assets/images/ellipse23.png"),
+    url("@/pages/home/page/assets/images/ellipse22.png"),
+    url("@/pages/home/page/assets/images/ellipse31.png"),
+    url("@/pages/home/page/assets/images/ellipse24.png"),
+    url("@/pages/home/page/assets/images/ellipse25.png"),
+    url("@/pages/home/page/assets/images/ellipse25.png"),
+    url("@/pages/home/page/assets/images/ellipse32.png"),
+    url("@/pages/home/page/assets/images/ellipse29.png"),
+    url("@/pages/home/page/assets/images/ellipse33.png"),
+    url("@/pages/home/page/assets/images/ellipse28.png");
+  background-position: 10% 1%, 30% 15%, 80% 3%, 7% 38%, 95% 30%, 88% 40%, 1% 53%,
+    7% 97%, 30% 86%, 88% 90%;
+  background-repeat: no-repeat;
+}
+.Text {
+  z-index: 1;
+  position: absolute;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.figure1 {
+  height: 500px;
+  width: 350px;
+  background-image: url("@/pages/home/page/assets/images/figure1.png");
+  background-position: right center;
+  background-repeat: no-repeat;
+  animation: moveUpDown 3s infinite;
+  position: absolute;
+  right: 0;
+  top: 20px;
+  pointer-events: none;
+}
+.figure2 {
+  height: 200px;
+  width: 200px;
+  background-image: url("@/pages/home/page/assets/images/figure2.png");
+  background-position: left center;
+  background-repeat: no-repeat;
+  animation: moveUpDown 4s infinite;
+  position: absolute;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+}
+.figure3 {
+  height: 50px;
+  width: 50px;
+  background-image: url("@/pages/home/page/assets/images/figure3.png");
+  background-position: left center;
+  background-repeat: no-repeat;
+  animation: moveUpDown 2.5s infinite;
+  position: absolute;
+  left: 100px;
+  top: 30px;
+  pointer-events: none;
+}
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-12px); /* 위로 13px 이동 */
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.text p {
+  font-family: "PaytoneOne";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: inline;
+}
+
+#FIAO {
+  background: linear-gradient(104deg, #21ecc7 56.11%, #8473f2 91.51%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "PaytoneOne";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.plus p {
+  font-family: Pretendard-Light;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  display: inline;
+}
+
+.plus #A,
+.plus #O {
+  font-family: Pretendard-ExtraBold;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.ex p {
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 90px;
+}
+
+.FIbutton #FIbut {
+  z-index: 1000;
+  width: 150px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 60px;
+  display: flex; /* Flex 컨테이너로 설정 */
+  align-items: center; /* 세로 중앙 정렬 */
+  justify-content: center;
+  border: none;
+}
+#FIbut p {
+  z-index: 1000;
+  color: #000;
+  font-family: Pretendard;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}

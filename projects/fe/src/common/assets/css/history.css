@@ -1,0 +1,17 @@
+.history-bg {
+  flex-direction: column;
+  position: relative;
+  background-image: url("@/pages/home/page/assets/images/ellipse23.png"),
+    url("@/pages/home/page/assets/images/ellipse22.png"),
+    url("@/pages/home/page/assets/images/ellipse31.png"),
+    url("@/pages/home/page/assets/images/ellipse24.png"),
+    url("@/pages/home/page/assets/images/ellipse25.png"),
+    url("@/pages/home/page/assets/images/ellipse25.png"),
+    url("@/pages/home/page/assets/images/ellipse32.png"),
+    url("@/pages/home/page/assets/images/ellipse29.png"),
+    url("@/pages/home/page/assets/images/ellipse33.png"),
+    url("@/pages/home/page/assets/images/ellipse28.png");
+  background-position: 10% 1%, 30% 15%, 80% 3%, 7% 38%, 95% 30%, 88% 40%, 1% 53%,
+    7% 97%, 30% 86%, 88% 90%;
+  background-repeat: no-repeat;
+}

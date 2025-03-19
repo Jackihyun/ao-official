@@ -1,0 +1,75 @@
+.footer {
+  width: auto;
+  height: 238px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footername {
+  display: flex;
+  font-family: "PaytoneOne";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 37px;
+}
+
+.footername p {
+  margin-top: 0;
+}
+
+.call {
+  display: flex;
+  margin-top: 60px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.callimg {
+  width: 24px;
+  height: 24px;
+}
+
+#number {
+  font-size: 15px;
+  margin: 0;
+  font-family: PRETENDARD-LIGHT;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+#fotfro {
+  color: #21ECC7;
+  font-family: "PaytoneOne";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#fotback {
+  background: linear-gradient(104deg, #21ecc7 56.11%, #8473f2 91.51%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "PaytoneOne";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.copyright {
+  text-align: center;
+  font-family: PRETENDARD-LIGHT;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+  margin: 0;
+}
