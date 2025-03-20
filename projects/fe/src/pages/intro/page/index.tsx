@@ -1,8 +1,5 @@
 import AoJc from "@/common/assets/images/종찬이형.jpg";
-import Aosj from "@/common/assets/images/세진이.png";
-import Aojh from "@/common/assets/images/나2.png";
-import Aoce from "@/common/assets/images/신초은.jpg";
-import Aoyn from "@/common/assets/images/최윤아.jpg";
+import Aomh from "@/common/assets/images/천명현사진.jpg";
 
 import JcIcon from "@/pages/intro/page/assets/images/ao김종찬아바타.jpg";
 import SjIcon from "@/pages/intro/page/assets/images/ao박세진아바타.jpg";
@@ -45,91 +42,108 @@ interface Profile {
 const profiles: Profile[] = [
   {
     id: 1,
-    name: "배종찬",
-    position: "회장님",
-    phone: "010-4939-1971",
-    insta: "bnadgnohz",
-    image: AoJc,
+    name: "유용석",
+    position: "AO 회장",
+    phone: "010-6692-9484",
+    insta: "yd._.5eok",
+    image: Aoys,
     avatar: JcIcon,
-    words: <>
-      <span>“안녕하십니까! AO의 배종찬입니다. 삼촌 아니고 형입니다. </span>
-      <span>정승처럼 공부하고 개처럼 마시는 스터디 AO! </span>
-      <span>군대 다녀온 복학생도 어리버리 신입생도 모두 환영합니다. </span>
-      <span>MT면 MT, 스터디면 스터디, 회식이면 회식!</span>
-      <span>뭐 하나 빠지지 않는 저희 AO 스터디에서 바라왔던 대학생활 보내시면 좋겠습니다 🔥🔥”</span>
-    </>
+    words: (
+      <>
+        <span>“안녕하십니까~~ 25년도 AO회장 유용석입니다!</span>
+        <span>A(lcohol)O(nly)는 여러분 인생에서 처음일 수 있는</span>
+        <span>신입생 생활을 책임져 드립니다!!</span>
+        <span>또한 컴공 관련 정보도 많이 얻을 수 있어요.</span>
+        <span>안 올 이유가 없다고 볼 수 있죠.”</span>
+        <span>스터디 AO에서 같이 성장해 보아요! 🔥</span>
+      </>
+    ),
   },
   {
     id: 2,
-    name: "박세진",
-    position: "코딩얼굴마담",
-    phone: "",
-    insta: "re_alworld",
-    image: Aosj,
+    name: "배종찬",
+    position: "전회장님",
+    phone: "010-4939-1971",
+    insta: "bnadgnohz",
+    image: AoJc,
     avatar: SjIcon,
-    words: <>
-      <span>“안녕하세요~~ 19학번 석유 박세진입니다!</span>
-      <span>A(lcohol)O(nly)는 여러분 인생에서 처음일 수 있는</span>
-      <span> 신입생 생활을 책임져 드립니다!!</span>
-      <span>또한 컴공 관련 정보도 많이 얻을 수 있어요. </span>
-      <span>안 올 이유가 없다고 볼 수 있죠. AO에서 같이 성장해 보아요!"</span>
-    </>
+    words: (
+      <>
+        <span>“안녕하십니까! AO의 배종찬입니다. 삼촌 아니고 형입니다. </span>
+        <span>정승처럼 공부하고 개처럼 마시는 스터디 AO! </span>
+        <span>군대 다녀온 복학생도 어리버리 신입생도 모두 환영합니다. </span>
+        <span>MT면 MT, 스터디면 스터디, 회식이면 회식!</span>
+        <span>
+          뭐 하나 빠지지 않는 저희 AO 스터디에서 바라왔던 대학생활 보내시면
+          좋겠습니다 🔥🔥”
+        </span>
+      </>
+    ),
   },
   {
     id: 3,
-    name: "천제희",
+    name: "천명현",
     position: "AO GPT",
-    phone: "",
-    insta: "jeheecheon",
-    image: Aojh,
+    phone: "010-8915-7264",
+    insta: "cmh1448",
+    image: Aomh,
     avatar: JhIcon,
-    words: <>
-      <span>“Fire🔥 AO 18학번 천제희입니다. </span>
-      <span>AO만큼 활발한 스터디! 여기 말고 절대 없어요</span>
-      <span>같이 능력있는 선배들 피만🩸 쪽쪽🦟 빨아 보아요" </span>
-    </>
+    words: (
+      <>
+        <span>“Fire🔥 AO 20학번 천명현입니다. </span>
+        <span>AO만큼 활발한 스터디! 여기 말고 절대 없어요</span>
+        <span>같이 능력있는 선배들 피만🩸 쪽쪽🦟 빨아 보아요" </span>
+      </>
+    ),
   },
   {
     id: 4,
-    name: "신초은",
+    name: "",
     position: "코드킹메이커",
     phone: "",
     insta: "cho01_63",
-    image: Aoce,
+    image: Aoys,
     avatar: CeIcon,
-    words: <>
-      <span>“안녕하세요 FIRE AO 20학번 신초은입니다☺ </span>
-      <span>족보, 인맥, 정보, 각종 스터디 등 생각보다 얻어갈 수 있는게 정말
-        많아요!</span>
-      <span>밥 잘 사주는 스터디 AO에서 슬기로운 대학생활 해보아요" </span>
-    </>
+    words: (
+      <>
+        <span>“안녕하세요 FIRE AO 20학번 신초은입니다☺ </span>
+        <span>
+          족보, 인맥, 정보, 각종 스터디 등 생각보다 얻어갈 수 있는게 정말
+          많아요!
+        </span>
+        <span>밥 잘 사주는 스터디 AO에서 슬기로운 대학생활 해보아요" </span>
+      </>
+    ),
   },
   {
     id: 5,
-    name: "최윤아",
+    name: "",
     position: "고민상담사",
     phone: "",
-    insta: "yuna_co_2",
-    image: Aoyn,
+    insta: "",
+    image: Aoys,
     avatar: YnIcon,
-    words: <>
-      <span>“안녕하세요 스터디 AO 21학번 최윤아입니다!! </span>
-      <span>학과 생활 하면서 필요한 정보들과 족보, </span>
-      <span>인맥 또한 행복하고 즐겁게 얻어갈 수 있습니다🫶</span>
-      <span>좋은 사람들을 많이 사귀고, 성적을 잘 받고 싶은 학우들이라면 함께
-        해요!🍀"
-      </span>
-    </>
+    words: (
+      <>
+        <span>“안녕하세요 스터디 AO 21학번 최윤아입니다!! </span>
+        <span>학과 생활 하면서 필요한 정보들과 족보, </span>
+        <span>인맥 또한 행복하고 즐겁게 얻어갈 수 있습니다🫶</span>
+        <span>
+          좋은 사람들을 많이 사귀고, 성적을 잘 받고 싶은 학우들이라면 함께
+          해요!🍀"
+        </span>
+      </>
+    ),
   },
-]
+];
 
 const index = () => {
-  const [selectedProfile, setSelectedProfile] = useState<Profile>(profiles[0])
+  const [selectedProfile, setSelectedProfile] = useState<Profile>(profiles[0]);
   const [isFlipped, setIsFlipped] = useState<boolean>(false);
 
   const showChange = () => {
     console.log("Clicked");
-  }
+  };
 
   return (
     <>
@@ -145,14 +159,12 @@ const index = () => {
                 alt="메인 사진"
                 onClick={() => setIsFlipped(!isFlipped)}
                 className={`shadow-xl w-[99px] h-[99px] animate-bounce relative left-[2px] -top-[60px] rounded-tl-[100px] rounded-tr-[3px] rounded-bl-[100px] rounded-br-[100px] object-cover
-                ${isFlipped ? 'animate-flipped' : ''}`}
+                ${isFlipped ? "animate-flipped" : ""}`}
               />
             </button>
           </div>
 
-          <div
-            className="flex flex-col w-auto justify-center items-start ml-[60px] -mt-[100px]"
-          >
+          <div className="flex flex-col w-auto justify-center items-start ml-[60px] -mt-[100px]">
             <p className="text-[13px] font-['PRETENDARD-BOLD'] text-black dark:text-white">
               {selectedProfile.name}
             </p>
@@ -191,26 +203,46 @@ const index = () => {
         </p>
 
         <div className="flex flex-row items-center justify-center flex-wrap gap-4 mt-4">
-          <ExecutiveAvatar active={selectedProfile.id === 5} profile={profiles[0]} onClick={() => {
-            setSelectedProfile(profiles[0]);
-            setIsFlipped(false);
-          }} />
-          <ExecutiveAvatar active={selectedProfile.id === 1} profile={profiles[1]} onClick={() => {
-            setSelectedProfile(profiles[1]);
-            setIsFlipped(false);
-          }} />
-          <ExecutiveAvatar active={selectedProfile.id === 2} profile={profiles[2]} onClick={() => {
-            setSelectedProfile(profiles[2]);
-            setIsFlipped(false);
-          }} />
-          <ExecutiveAvatar active={selectedProfile.id === 3} profile={profiles[3]} onClick={() => {
-            setSelectedProfile(profiles[3]);
-            setIsFlipped(false);
-          }} />
-          <ExecutiveAvatar active={selectedProfile.id === 4} profile={profiles[4]} onClick={() => {
-            setSelectedProfile(profiles[4]);
-            setIsFlipped(false);
-          }} />
+          <ExecutiveAvatar
+            active={selectedProfile.id === 5}
+            profile={profiles[0]}
+            onClick={() => {
+              setSelectedProfile(profiles[0]);
+              setIsFlipped(false);
+            }}
+          />
+          <ExecutiveAvatar
+            active={selectedProfile.id === 1}
+            profile={profiles[1]}
+            onClick={() => {
+              setSelectedProfile(profiles[1]);
+              setIsFlipped(false);
+            }}
+          />
+          <ExecutiveAvatar
+            active={selectedProfile.id === 2}
+            profile={profiles[2]}
+            onClick={() => {
+              setSelectedProfile(profiles[2]);
+              setIsFlipped(false);
+            }}
+          />
+          <ExecutiveAvatar
+            active={selectedProfile.id === 3}
+            profile={profiles[3]}
+            onClick={() => {
+              setSelectedProfile(profiles[3]);
+              setIsFlipped(false);
+            }}
+          />
+          <ExecutiveAvatar
+            active={selectedProfile.id === 4}
+            profile={profiles[4]}
+            onClick={() => {
+              setSelectedProfile(profiles[4]);
+              setIsFlipped(false);
+            }}
+          />
         </div>
       </div>
 
@@ -219,11 +251,9 @@ const index = () => {
           <p className="w-full text-base font-['PRETENDARD-SEMIBOLD'] text-left text-black dark:text-white">
             Developers of AO WEB
           </p>
-          <p
-            className="w-full text-[14px] font-['PRETENDARD-BOLD'] text-left  text-[#848484] dark:text-[#CCC]"
-          >
+          {/* <p className="w-full text-[14px] font-['PRETENDARD-BOLD'] text-left  text-[#848484] dark:text-[#CCC]">
             Team. 프링글스 양파맛 좋아합니다
-          </p>
+          </p> */}
         </div>
 
         <div className="flex justify-center items-center flex-wrap mt-[15px] gap-[12px]">
@@ -238,22 +268,35 @@ const index = () => {
           <DeveloperAvatar src={AoSeohyunBang} />
         </div>
 
-        <div
-          className="px-[15%] flex flex-col justify-center items-center mt-[37px] gap-[10px]"
-        >
+        <div className="px-[15%] flex flex-col justify-center items-center mt-[37px] gap-[10px]">
           <DeveloperGroup
             groupName="Infra."
-            names={["박세진 Sejin Park", "천제희 Jehee Cheon", "배종찬 Jongchan Bae"]}
+            names={[
+              "박세진 Sejin Park",
+              "천제희 Jehee Cheon",
+              "배종찬 Jongchan Bae",
+            ]}
           />
 
           <DeveloperGroup
             groupName="Frontend."
-            names={["박기현 Kihyun Park", "김초은 Choeun Kim", "유용석 Yongseok Yoo", "이창민 Changmin Lee"]}
+            names={[
+              "박기현 Kihyun Park",
+              "김초은 Choeun Kim",
+              "유용석 Yongseok Yoo",
+              "이창민 Changmin Lee",
+            ]}
           />
 
           <DeveloperGroup
             groupName="Backend."
-            names={["송정민 Jeongmin Song", "노유빈 Yunin No", "정익재 Ikjae Jeong", "방준혁 Junhyuk Bang", "안서현 Seohyun An"]}
+            names={[
+              "송정민 Jeongmin Song",
+              "노유빈 Yunin No",
+              "정익재 Ikjae Jeong",
+              "방준혁 Junhyuk Bang",
+              "안서현 Seohyun An",
+            ]}
           />
         </div>
       </div>
@@ -262,9 +305,11 @@ const index = () => {
         <title>Intro | Fire AO</title>
         <link rel="canonical" href={`/intro`} />
         <meta name="description" content="Fire AO intro" />
-        <meta name="keywords" content={`fire, AO, Myongji, Univ., MJ, computer, science, major, intro`} />
+        <meta
+          name="keywords"
+          content={`fire, AO, Myongji, Univ., MJ, computer, science, major, intro`}
+        />
         <meta name="author" content="FireAO" />/
-
         <meta property="og:title" content="intro | Fire AO" />
         <meta property="og:description" content="Fire AO intro" />
         <meta property="og:image" content={ao} />
@@ -272,14 +317,13 @@ const index = () => {
         <meta property="og:site_name" content="Fire AO" />
         <meta property="og:locale" content="ko_KR" />
         <meta property="og:url" content={`/intro`} />
-
         <meta name="twitter:title" content={`intro | Fire AO`} />
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:description" content={'Fire AO intro'} />
+        <meta name="twitter:description" content={"Fire AO intro"} />
         <meta name="twitter:image" content={ao} />
       </Helmet>
     </>
-  )
-}
+  );
+};
 
-export default index
+export default index;
