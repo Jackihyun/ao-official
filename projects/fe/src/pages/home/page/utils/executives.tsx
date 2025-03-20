@@ -1,6 +1,6 @@
 import jongChanBae from "@/common/assets/images/종찬이형.jpg";
 import yooYongSeok from "@/common/assets/images/유용석사진.jpg";
-import jeHeeCheon from "@/common/assets/images/나2.png";
+import myungHyeonCheon from "@/common/assets/images/천명현사진.jpg";
 import choEunShin from "@/common/assets/images/신초은.jpg";
 import yunAChoi from "@/common/assets/images/최윤아.jpg";
 
@@ -57,7 +57,7 @@ export const executives: Executive[] = [
         <br />
       </>
     ),
-    avatar: jeHeeCheon,
+    avatar: myungHyeonCheon,
   },
   {
     name: "신초은",
