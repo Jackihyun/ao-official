@@ -1,61 +1,61 @@
-name: Deploy static content to Pages
+# name: Deploy static content to Pages
 
-on:
-  push:
-    branches:
-      - main
-    paths: [".github/workflows/**", "projects/fe/**"]
-  workflow_dispatch:
+# on:
+#   push:
+#     branches:
+#       - main
+#     paths: [".github/workflows/**", "projects/fe/**"]
+#   workflow_dispatch:
 
-permissions:
-  contents: read
-  pages: write
-  id-token: write
+# permissions:
+#   contents: read
+#   pages: write
+#   id-token: write
 
-concurrency:
-  group: "pages"
-  cancel-in-progress: true
+# concurrency:
+#   group: "pages"
+#   cancel-in-progress: true
 
-jobs:
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./projects/fe
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+# jobs:
+#   deploy:
+#     environment:
+#       name: github-pages
+#       url: ${{ steps.deployment.outputs.page_url }}
+#     runs-on: ubuntu-latest
+#     defaults:
+#       run:
+#         working-directory: ./projects/fe
+#     steps:
+#       - name: Checkout
+#         uses: actions/checkout@v4
 
-      - name: Set up Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
+#       - name: Set up Node
+#         uses: actions/setup-node@v4
+#         with:
+#           node-version: 20
 
-      - name: Remove node_modules and package-lock.json
-        run: |
-          rm -rf node_modules
-          rm -f package-lock.json
+#       - name: Remove node_modules and package-lock.json
+#         run: |
+#           rm -rf node_modules
+#           rm -f package-lock.json
 
-      - name: Clear NPM cache
-        run: npm cache clean --force
+#       - name: Clear NPM cache
+#         run: npm cache clean --force
 
-      - name: Install dependencies
-        run: npm install
+#       - name: Install dependencies
+#         run: npm install
 
-      - name: Build
-        run: npm run build
+#       - name: Build
+#         run: npm run build
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
+#       - name: Setup Pages
+#         uses: actions/configure-pages@v4
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: "./projects/fe/dist"
+#       - name: Upload artifact
+#         uses: actions/upload-pages-artifact@v3
+#         with:
+#           path: "./projects/fe/dist"
 
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+#       - name: Deploy to GitHub Pages
+#         id: deployment
+#         uses: actions/deploy-pages@v4
