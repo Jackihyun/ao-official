@@ -65,7 +65,7 @@ const index = () => {
             />
             <Slide
               title="멘토멘티"
-              explanation="멘토멘티 사이트 개발"
+              explanation="선배-후배 매칭으로 멘토멘티"
               image={MentoImage}
             />
             <Slide

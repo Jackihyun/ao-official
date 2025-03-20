@@ -1,10 +1,11 @@
 import AoJc from "@/common/assets/images/종찬이형.jpg";
 import Aomh from "@/common/assets/images/천명현사진.jpg";
+import AoJe from "@/common/assets/images/parkjungen.jpeg";
+import AoJk from "@/common/assets/images/jungjinuk.jpeg";
 
 import JcIcon from "@/pages/intro/page/assets/images/ao김종찬아바타.jpg";
 import SjIcon from "@/pages/intro/page/assets/images/ao박세진아바타.jpg";
 import JhIcon from "@/pages/intro/page/assets/images/ao천제희아바타.jpg";
-import CeIcon from "@/pages/intro/page/assets/images/ao신초은아바타.jpg";
 import YnIcon from "@/pages/intro/page/assets/images/ao최윤아아바타.jpg";
 
 import Aokh from "@/pages/intro/page/assets/images/박기현사진.jpg";
@@ -62,7 +63,7 @@ const profiles: Profile[] = [
   {
     id: 2,
     name: "배종찬",
-    position: "전회장님",
+    position: "코테 마스터",
     phone: "010-4939-1971",
     insta: "bnadgnohz",
     image: AoJc,
@@ -98,40 +99,38 @@ const profiles: Profile[] = [
   },
   {
     id: 4,
-    name: "",
-    position: "코드킹메이커",
-    phone: "",
-    insta: "cho01_63",
-    image: Aoys,
-    avatar: CeIcon,
+    name: "박정은",
+    position: "비공개",
+    phone: "비공개",
+    insta: "zenn.zip",
+    image: AoJe,
+    avatar: YnIcon,
     words: (
       <>
-        <span>“안녕하세요 FIRE AO 20학번 신초은입니다☺ </span>
+        <span>“안녕하세요 Fire AO 21학번 박정은입니다.</span>
         <span>
-          족보, 인맥, 정보, 각종 스터디 등 생각보다 얻어갈 수 있는게 정말
-          많아요!
+          AO는 인맥, 각종 스터디, 취업 정보 모두 챙길 수 있는 스터디에요!
         </span>
-        <span>밥 잘 사주는 스터디 AO에서 슬기로운 대학생활 해보아요" </span>
+        <span>슬기로운 대학생활을 하고 싶다면 AO에서 함께해요🤗</span>
       </>
     ),
   },
   {
     id: 5,
-    name: "",
-    position: "고민상담사",
-    phone: "",
-    insta: "",
-    image: Aoys,
-    avatar: YnIcon,
+    name: "정진욱",
+    position: "only 백엔드",
+    phone: "010-3702-9795",
+    insta: "oocieyu",
+    image: AoJk,
+    avatar: SjIcon,
     words: (
       <>
-        <span>“안녕하세요 스터디 AO 21학번 최윤아입니다!! </span>
-        <span>학과 생활 하면서 필요한 정보들과 족보, </span>
-        <span>인맥 또한 행복하고 즐겁게 얻어갈 수 있습니다🫶</span>
-        <span>
-          좋은 사람들을 많이 사귀고, 성적을 잘 받고 싶은 학우들이라면 함께
-          해요!🍀"
-        </span>
+        <span>안녕하세요!</span>
+        <span>Fire AO❤️‍🔥 20학번 정진욱입니다</span>
+        <span>학교 생활에 꼭 필요한 정보를 얻어가고</span>
+        <span>학과 선배들과도 쉽게 친해질 수 있어요👍</span>
+        <span>AO 스터디에서 좋은 자리, 재밌는 대학 생활"</span>
+        <span>함께 해보는 거 어때요?</span>
       </>
     ),
   },
@@ -256,7 +255,7 @@ const index = () => {
           </p> */}
         </div>
 
-        <div className="flex justify-center items-center flex-wrap mt-[15px] gap-[12px]">
+        <div className="flex justify-center items-center flex-wrap mt-[30px] gap-[12px]">
           <DeveloperAvatar src={Aokh} />
           <DeveloperAvatar src={AoChoeunKim} />
           <DeveloperAvatar src={Aoys} />

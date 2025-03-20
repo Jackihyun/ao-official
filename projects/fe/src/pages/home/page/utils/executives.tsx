@@ -1,8 +1,8 @@
 import jongChanBae from "@/common/assets/images/종찬이형.jpg";
 import yooYongSeok from "@/common/assets/images/유용석사진.jpg";
 import myungHyeonCheon from "@/common/assets/images/천명현사진.jpg";
-import choEunShin from "@/common/assets/images/신초은.jpg";
-import yunAChoi from "@/common/assets/images/최윤아.jpg";
+import jungEunPark from "@/common/assets/images/parkjungen.jpeg";
+import jungJinWook from "@/common/assets/images/jungjinuk.jpeg";
 
 import { Executive } from "@/pages/home/page/types/executive";
 
@@ -60,31 +60,32 @@ export const executives: Executive[] = [
     avatar: myungHyeonCheon,
   },
   {
-    name: "신초은",
+    name: "박정은",
     id: 4,
     description: (
       <>
-        안녕하세요 FIRE AO 20학번 신초은입니다☺
+        안녕하세요 Fire AO 21학번 박정은입니다.
+        <br /> AO는 인맥, 각종 스터디, 취업 정보 모두 챙길 수 있는 스터디에요!
         <br />
-        족보, 인맥, 정보, 각종 스터디 등 생각보다 얻어갈 수 있는게 정말 많아요!
-        <br />밥 잘 사주는 스터디 AO에서 슬기로운 대학생활 해보아요.
+        슬기로운 대학생활을 하고 싶다면 AO에서 함께해요🤗
+        <br />
       </>
     ),
-    avatar: choEunShin,
+    avatar: jungEunPark,
   },
   {
-    name: "최윤아",
+    name: "정진욱",
     id: 5,
     description: (
       <>
-        안녕하세요 스터디 AO 21학번 최윤아입니다!!
+        안녕하세요! Fire AO❤️‍🔥 20학번 정진욱입니다/
         <br />
-        학과 생활 하면서 필요한 정보들과 족보, 인맥 또한 행복하고 즐겁게 얻어갈
-        수 있습니다🫶
+        학교 생활에 꼭 필요한 정보를 얻어가고 학과
+        <br /> 선배들과도 쉽게 친해질 수 있어요👍
         <br />
-        좋은 사람들을 많이 사귀고, 성적을 잘 받고 싶은 학우들이라면 함께 해요!🍀
+        AO 스터디에서 좋은 자리, 재밌는 대학 생활 함께 해보는 거 어때요?
       </>
     ),
-    avatar: yunAChoi,
+    avatar: jungJinWook,
   },
 ];
