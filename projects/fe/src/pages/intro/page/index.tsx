@@ -181,7 +181,9 @@ const index = () => {
               className=" flex justify-center items-center flex-grow-0 flex-shrink-0 w-auto text-[10px] font-['PRETENDARD-MEDIUM'] text-left text-[#747474]"
             >
               <InstaIcon />
-              <span className="ml-[2.5px]">{selectedProfile.insta}</span>
+              <span className="ml-[2.5px] text-[#747474] dark:text-stone-300">
+                {selectedProfile.insta}
+              </span>
             </a>
           </div>
         </div>
