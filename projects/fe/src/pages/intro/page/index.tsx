@@ -1,5 +1,5 @@
 import AoJc from "@/common/assets/images/종찬이형.jpg";
-import Aomh from "@/common/assets/images/천명현사진.jpg";
+import Aomh from "@/common/assets/images/myunghyun.jpg";
 import AoJe from "@/common/assets/images/parkjungen.jpeg";
 import AoJk from "@/common/assets/images/jungjinuk.jpeg";
 

@@ -1,6 +1,6 @@
 import jongChanBae from "@/common/assets/images/종찬이형.jpg";
 import yooYongSeok from "@/common/assets/images/유용석사진.jpg";
-import myungHyeonCheon from "@/common/assets/images/천명현사진.jpg";
+import myungHyeonCheon from "@/common/assets/images/myunghyun.jpg";
 import jungEunPark from "@/common/assets/images/parkjungen.jpeg";
 import jungJinWook from "@/common/assets/images/jungjinuk.jpeg";
 

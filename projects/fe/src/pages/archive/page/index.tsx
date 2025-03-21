@@ -4,7 +4,7 @@ import Autoplay from "embla-carousel-autoplay";
 import { useEffect } from "react";
 
 import BlossomImage from "@/pages/archive/page/assets/images/BlossomImage.png";
-import MentoImage from "@/pages/archive/page/assets/images/멘토멘티.png";
+import MentoImage from "@/pages/archive/page/assets/images/mentomenti.png";
 import Mt1Image from "@/pages/archive/page/assets/images/MT2.png";
 import Study2Image from "@/pages/archive/page/assets/images/서버파트2.png";
 import Dinner1Image from "@/pages/archive/page/assets/images/전체회식1.png";
