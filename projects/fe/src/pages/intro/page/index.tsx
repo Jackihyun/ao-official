@@ -100,8 +100,8 @@ const profiles: Profile[] = [
   {
     id: 4,
     name: "박정은",
-    position: "비공개",
-    phone: "비공개",
+    position: "",
+    phone: "",
     insta: "zenn.zip",
     image: AoJe,
     avatar: YnIcon,
