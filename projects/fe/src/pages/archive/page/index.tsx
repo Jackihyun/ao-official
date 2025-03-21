@@ -3,7 +3,7 @@ import { WheelGesturesPlugin } from "embla-carousel-wheel-gestures";
 import Autoplay from "embla-carousel-autoplay";
 import { useEffect } from "react";
 
-import BlossomImage from "@/pages/archive/page/assets/images/벚꽃축제.png";
+import BlossomImage from "@/pages/archive/page/assets/images/BlossomImage.png";
 import MentoImage from "@/pages/archive/page/assets/images/멘토멘티.png";
 import Mt1Image from "@/pages/archive/page/assets/images/MT2.png";
 import Study2Image from "@/pages/archive/page/assets/images/서버파트2.png";
